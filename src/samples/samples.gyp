@@ -1,6 +1,5 @@
-# Copyright (c) 2011 The Baidu Authors. All rights
-# reserved. Use of this source code is governed by a BSD-style license that
-# can be found in the LICENSE file.
+# Copyright (c) 2017 The Smart Authors.
+# All rights reserved.
 
 {
   'targets': [

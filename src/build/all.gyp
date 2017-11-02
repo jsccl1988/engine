@@ -1,4 +1,4 @@
-# Copyright (c) 2015 The Baidu Authors.
+# Copyright (c) 2017 The Smart Authors.
 # All rights reserved.
 
 {
