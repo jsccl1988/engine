@@ -1,0 +1,4 @@
+build obj/build/all.actions_depends.stamp: stamp device_caps fonts $
+    inventory models movable_sprite screen_modes shaders sobel splatting $
+    sprite_animation sprite_interface sprites tiling ui xsystem
+

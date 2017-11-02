@@ -1,0 +1,13 @@
+defines = -DVE_LINUX -DDEBUG
+includes = -I../../src/samples -I../../src -I../..
+cflags = 
+cflags_c = 
+cflags_cc = 
+arflags = 
+
+build obj/samples/ui/ui.sample.o: cxx ../../src/samples/ui/sample.cpp
+
+ldflags = 
+libs = -lX11 -lGL -lGLU
+build ui: link obj/samples/ui/ui.sample.o obj/engine/libvr_engine.a
+  ld = $ldxx

@@ -1,0 +1,16 @@
+defines = -DVE_LINUX -DDEBUG
+includes = -I../../src/samples -I../../src -I../..
+cflags = 
+cflags_c = 
+cflags_cc = 
+arflags = 
+
+build obj/samples/movable_sprite/movable_sprite.sample.o: cxx $
+    ../../src/samples/movable_sprite/sample.cpp
+
+ldflags = 
+libs = -lX11 -lGL -lGLU
+build movable_sprite: link $
+    obj/samples/movable_sprite/movable_sprite.sample.o $
+    obj/engine/libvr_engine.a
+  ld = $ldxx

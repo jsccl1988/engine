@@ -1,0 +1,15 @@
+defines = -DVE_LINUX -DDEBUG
+includes = -I../../src/samples -I../../src -I../..
+cflags = 
+cflags_c = 
+cflags_cc = 
+arflags = 
+
+build obj/samples/models/models.sample.o: cxx $
+    ../../src/samples/models/sample.cpp
+
+ldflags = 
+libs = -lX11 -lGL -lGLU
+build models: link obj/samples/models/models.sample.o $
+    obj/engine/libvr_engine.a
+  ld = $ldxx
