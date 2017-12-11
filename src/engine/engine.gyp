@@ -26,7 +26,6 @@
               '-lrpcrt4.lib',
               '-lopengl32.lib',
               '-lglu32.lib',
-              '-lcef.dll.lib',
             ],
            },
         }],

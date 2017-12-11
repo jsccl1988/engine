@@ -21,7 +21,7 @@
           }
         },
         'msvs_configuration_attributes': {
-          'CharacterSet': '2'
+          'CharacterSet': '1'
         },
         'msvs_disabled_warnings': [
             4201,  # nonstandard extension used : nameless struct/union.
