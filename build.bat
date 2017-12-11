@@ -6,4 +6,4 @@ set python_path=%depot_tools_path%\python276_bin
 
 set PATH=%depot_tools_path%;%python_path%;%PATH%
 
-ninja -C src\build/out/Debug all
+ninja -C out/Debug_Win32 all

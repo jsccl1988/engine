@@ -20,6 +20,14 @@
             "msvs_configuration_platform": "x64",
           }
         },
+        'msvs_configuration_attributes': {
+          'CharacterSet': '2'
+        },
+        'msvs_disabled_warnings': [
+            4201,  # nonstandard extension used : nameless struct/union.
+            4577,  # 'noexcept' used with no exception handling mode specified
+            4530,  # C++ exception handler used, but unwind semantics are not enabled. 
+        ],        
         'defines': [
           'VE_WINDOWS',
         ],
