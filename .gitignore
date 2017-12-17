@@ -48,6 +48,7 @@ Thumbs.db
 /android_emulator_sdk
 /ash/ash_unittests_run.xml
 /base/base_unittests_run.xml
+/out
 /out/Debug
 /out/Debug_x64
 /out/gomacc.lock

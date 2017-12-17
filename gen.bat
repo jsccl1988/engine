@@ -6,7 +6,7 @@ set GYP_GENERATORS=msvs-ninja,ninja
 set GYP_GENERATOR_FLAGS="output_dir=../out"
 
 set workspace=%~dp0
-set depot_tools_path=%workspace%\src\tools\depot_tools
+set depot_tools_path=%workspace%src\tools\depot_tools
 set python_path=%depot_tools_path%\python276_bin
 
 set PATH=%depot_tools_path%;%python_path%;%PATH%
