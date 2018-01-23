@@ -1,3 +1,4 @@
+#coding:utf-8
 # Copyright (c) 2013 Google Inc. All rights reserved.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
@@ -1955,6 +1956,9 @@ def GenerateOutputForConfig(target_list, target_dicts, data, params,
       master_ninja.variable('ldxx_host', CommandWithWrapper(
           'LINK', wrappers, ldxx_host))
 
+  master_ninja.newline()
+
+  master_ninja.variable('msvc_deps_prefix', "\"注意: 包含文件:\"") # ANSI
   master_ninja.newline()
 
   master_ninja.pool('link_pool', depth=GetDefaultConcurrentLinks())

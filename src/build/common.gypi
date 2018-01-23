@@ -5,31 +5,22 @@
   "conditions": [
     ["OS=='win'", {
       "target_defaults": {
-        "default_configuration": "Release_x64",
+        "default_configuration": "Debug",
         "configurations": {
-          "Debug_Win32": {
-            "msvs_configuration_platform": "Win32",
+          "Debug": {
+            "defines": [
+              "DEBUG"
+            ],
           },
-          "Debug_x64": {
-            "msvs_configuration_platform": "x64",
-          },
-          "Release_Win32": {
-            "msvs_configuration_platform": "Win32",
-          },
-          "Release_x64": {
-            "msvs_configuration_platform": "x64",
+          "Release": {
+            "defines": [
+              "NDEBUG"
+            ],
           }
         },
-        'msvs_configuration_attributes': {
-          'CharacterSet': '1'
-        },
-        'msvs_disabled_warnings': [
-            4201,  # nonstandard extension used : nameless struct/union.
-            4577,  # 'noexcept' used with no exception handling mode specified
-            4530,  # C++ exception handler used, but unwind semantics are not enabled. 
-        ],        
+        'msvs_disabled_warnings': [4577],
         'defines': [
-          'VE_WINDOWS',
+          'VE_LINUX',
         ],
       }
     }],

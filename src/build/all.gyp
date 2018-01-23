@@ -8,6 +8,7 @@
       'type': 'none',
       'dependencies': [
         '../samples/samples.gyp:*',
+        '../test/test.gyp:*',
       ],
     },
   ],
