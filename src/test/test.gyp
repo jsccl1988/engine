@@ -10,7 +10,15 @@
       'dependencies': [
       ],
       'sources': [
+        'list.cpp',
+        'list.h',
         'main.cpp',
+        'sort.cpp',
+        'sort.h',              
+        'tree.cpp',
+        'tree.h',        
+        'utils.cpp',
+        'utils.h',
       ],
       'include_dirs': [
       ],

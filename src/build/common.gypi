@@ -19,8 +19,11 @@
           }
         },
         'msvs_disabled_warnings': [4577],
+        'msvs_configuration_attributes': {
+          'CharacterSet': '1'
+        },
         'defines': [
-          'VE_LINUX',
+          'VE_WINDOWS',
         ],
       }
     }],
