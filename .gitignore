@@ -64,3 +64,5 @@ Thumbs.db
 /out/linux/bin/eu-strip
 /out/linux/debian_*-sysroot/
 log.txt
+Debug
+Release
