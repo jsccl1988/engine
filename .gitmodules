@@ -1,0 +1,3 @@
+[submodule "src/tools/gyp"]
+	path = src/tools/gyp
+	url = https://github.com/jsccl1988/gyp.git
