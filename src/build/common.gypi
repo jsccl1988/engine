@@ -18,7 +18,7 @@
             ],
           }
         },
-        'msvs_disabled_warnings': [4577],
+        'msvs_disabled_warnings': [4577, 4530],
         'msvs_configuration_attributes': {
           'CharacterSet': '1'
         },
