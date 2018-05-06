@@ -22,6 +22,17 @@
       ],
       'include_dirs': [
       ],
+      'conditions': [
+        ['OS=="win"',{
+          'cflags':[],
+          'ldflags':[]
+        },{
+          'cflags':[
+            '--std=c++11',
+          ],
+          'ldflags':[]
+        }]
+      ],
       'msvs_settings': {
         'VCLinkerTool': {
           'SubSystem': '1',
